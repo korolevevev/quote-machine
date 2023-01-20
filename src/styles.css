@@ -1,0 +1,79 @@
+.App {
+  transition: background-color 2s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-box {
+  background-color: white;
+  width: 500px;
+  padding: 40px;
+  margin: 150px auto 0;
+  position: relative;
+  border-radius: 5px;
+}
+
+#text {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 27px;
+  text-align: center;
+  line-height: 40px;
+  transition: color 2s;
+}
+#text svg {
+  transition: fill 2s;
+}
+
+#author {
+  float: right;
+  font-size: 20px;
+  font-family: "Gotham Pro Light", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  transition: color 2s;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: space-between;
+}
+
+#tweet-quote svg {
+  transition: fill 2s;
+}
+#tweet-quote svg:hover {
+  opacity: 90%;
+}
+
+#new-quote {
+  height: 40px;
+  border: none;
+  color: white;
+  transition: background-color 2s;
+  border-radius: 3px;
+  padding: 0 20px;
+  font-family: "Gotham Pro Light", sans-serif;
+}
+#new-quote:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
+#creator {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 15px;
+}
+#creator a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
