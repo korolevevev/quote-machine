@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quote-machine/static/css/main.cc511734.css",
+    "main.js": "/quote-machine/static/js/main.2538ac11.js",
+    "static/js/787.e43a185d.chunk.js": "/quote-machine/static/js/787.e43a185d.chunk.js",
+    "index.html": "/quote-machine/index.html",
+    "main.cc511734.css.map": "/quote-machine/static/css/main.cc511734.css.map",
+    "main.2538ac11.js.map": "/quote-machine/static/js/main.2538ac11.js.map",
+    "787.e43a185d.chunk.js.map": "/quote-machine/static/js/787.e43a185d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc511734.css",
+    "static/js/main.2538ac11.js"
+  ]
+}
